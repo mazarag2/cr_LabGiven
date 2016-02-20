@@ -1,3 +1,12 @@
+/*
+ * 
+ * File: Account.java
+ * Author Kevinagary
+ * Date: 2/20/16
+ * 
+ * Description: Describes an abstract Account 
+ * 
+ */
 package banking.primitive.core;
 
 public abstract class Account implements java.io.Serializable {
