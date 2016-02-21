@@ -10,6 +10,11 @@
 package banking.primitive.core;
 
 public abstract class Account implements java.io.Serializable {
+	/**
+	  Class: Account
+	  
+	  Description: an abstract account built to be the parent of checkings and savings
+	*/
     private static final long serialVersionUID = 1L;
 
     protected enum State {

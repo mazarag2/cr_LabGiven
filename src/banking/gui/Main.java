@@ -20,6 +20,11 @@ import javax.swing.JFrame;
  */
 final class Main {
 	/**
+	  Class: Main
+	  
+	  Description: Entry point for the program
+	*/
+	/**
 	 * Private constructor to address STYLE issue.
 	 */
 	private Main() {

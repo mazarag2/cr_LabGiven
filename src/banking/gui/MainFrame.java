@@ -23,6 +23,14 @@ import javax.swing.*;
 
 @SuppressWarnings("serial")
 class MainFrame extends JFrame {
+	
+	/**
+	  Class: MainFrame.java	
+	  
+	  Description: Contains all buttons and event handlers
+	*/
+	
+	
 	AccountServer	myServer;
 	Properties		props;
 	JLabel			typeLabel;

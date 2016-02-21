@@ -12,6 +12,11 @@ package banking.primitive.core;
 
 
 public class AccountServerFactory {
+	/**
+	  Class: AccountServerFactory
+	  
+	  Description: A singleton class that provides a lookup and getMe methods
+	*/
 
 	protected static AccountServerFactory singleton = null;
 
