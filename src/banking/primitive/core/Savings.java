@@ -1,6 +1,20 @@
+/*
+ * 
+ * File: Savings.java
+ * Author Kevinagary
+ * Date: 2/20/16
+ * 
+ * Description: Contains class Savings
+ * 
+ */
 package banking.primitive.core;
 
 public class Savings extends Account {
+	/**
+	  Class: Checking	
+	  
+	  Description: Extends Account class and provides implementations for deposit,withdrawal, and get type
+	*/
 	private static final long serialVersionUID = 111L;
 	private int numWithdraws = 0;
 
@@ -20,6 +34,9 @@ public class Savings extends Account {
 			balance = balance + amount - 0.50F;
 			if (balance >= 0.0f) {
 				setState(State.OPEN);
+			}
+			else{
+				setState(State.OVERDRAWN);
 			}
 		}
 		return false;

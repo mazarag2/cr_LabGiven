@@ -1,3 +1,13 @@
+/*
+ * 
+ * File: MainFrame.java
+ * Author Kevinagary
+ * Date: 2/20/16
+ * 
+ * Description: GUI for the main application and contains all button instantiations and event handlers
+ * 
+ */
+
 package banking.gui;
 
 import banking.primitive.core.Account;
@@ -13,6 +23,14 @@ import javax.swing.*;
 
 @SuppressWarnings("serial")
 class MainFrame extends JFrame {
+	
+	/**
+	  Class: MainFrame.java	
+	  
+	  Description: Contains all buttons and event handlers
+	*/
+	
+	
 	AccountServer	myServer;
 	Properties		props;
 	JLabel			typeLabel;
