@@ -75,7 +75,7 @@ class ServerSolution implements AccountServer {
 		
 		return newAccountFactory(type, name, balance);
 	}
-	
+	//closes account returns boolean if successfully closed an Account.	
 	public boolean closeAccount(String name) {
 		Account acc = accountMap.get(name);
 		if (acc == null) {
