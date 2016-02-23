@@ -10,6 +10,11 @@
 package banking.primitive.core;
 
 public class Checking extends Account {
+	/**
+	  Class: Checking	
+	  
+	  Description: Extends Account class and provides implementations for deposit,withdrawal, and get type
+	*/
 
 	private static final long serialVersionUID = 11L;
 	private int numWithdraws = 0;

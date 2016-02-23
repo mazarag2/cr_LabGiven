@@ -14,6 +14,11 @@ import java.io.IOException;
 import java.util.List;
 
 public interface AccountServer {
+	/**
+	  Class: AccountServer	
+	  
+	  Description: an interface which composes of operations based on an account
+	*/
 
 	/** 
 	 *  Create a new account object in the server. if an account already exists with the given name

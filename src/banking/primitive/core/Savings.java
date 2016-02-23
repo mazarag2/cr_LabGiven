@@ -10,6 +10,11 @@
 package banking.primitive.core;
 
 public class Savings extends Account {
+	/**
+	  Class: Checking	
+	  
+	  Description: Extends Account class and provides implementations for deposit,withdrawal, and get type
+	*/
 	private static final long serialVersionUID = 111L;
 	private int numWithdraws = 0;
 
@@ -30,6 +35,7 @@ public class Savings extends Account {
 			if (balance >= 0.0f) {
 				setState(State.OPEN);
 			}
+			return true;
 		}
 		return false;
 	}
