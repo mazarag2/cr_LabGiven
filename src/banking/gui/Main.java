@@ -1,3 +1,14 @@
+/*
+ * 
+ * File: Main.java
+ * Author Kevinagary
+ * Date: 2/20/16
+ * 
+ * Description: Entry point for the program, Instantiates a JFrame and sets it visible
+ * 
+ */
+
+
 package banking.gui;
 
 import javax.swing.JFrame;
@@ -8,6 +19,11 @@ import javax.swing.JFrame;
  *
  */
 final class Main {
+	/**
+	  Class: Main
+	  
+	  Description: Entry point for the program
+	*/
 	/**
 	 * Private constructor to address STYLE issue.
 	 */
@@ -25,7 +41,7 @@ final class Main {
 			System.out.println("Usage: java FormMain <property file>");
 			System.exit(1);
 		}
-
+		
 		String propertyFile = args[0];
 		JFrame frame = new MainFrame(propertyFile);
 		frame.setVisible(true);

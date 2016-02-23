@@ -1,6 +1,20 @@
+/*
+ * 
+ * File: Account.java
+ * Author Kevinagary
+ * Date: 2/20/16
+ * 
+ * Description: Describes an abstract Account 
+ * 
+ */
 package banking.primitive.core;
 
 public abstract class Account implements java.io.Serializable {
+	/**
+	  Class: Account
+	  
+	  Description: an abstract account built to be the parent of checkings and savings
+	*/
     private static final long serialVersionUID = 1L;
 
     protected enum State {
