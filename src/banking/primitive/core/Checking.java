@@ -1,3 +1,12 @@
+/*
+ * 
+ * File: Checking.java
+ * Author Kevinagary
+ * Date: 2/20/16
+ * 
+ * Description: Contains Checking class
+ * 
+ */
 package banking.primitive.core;
 
 public class Checking extends Account {

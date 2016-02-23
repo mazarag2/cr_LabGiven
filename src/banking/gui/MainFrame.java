@@ -1,3 +1,13 @@
+/*
+ * 
+ * File: MainFrame.java
+ * Author Kevinagary
+ * Date: 2/20/16
+ * 
+ * Description: GUI for the main application and contains all button instantiations and event handlers
+ * 
+ */
+
 package banking.gui;
 
 import banking.primitive.core.Account;
