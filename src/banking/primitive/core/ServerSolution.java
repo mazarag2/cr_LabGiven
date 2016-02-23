@@ -59,7 +59,15 @@ class ServerSolution implements AccountServer {
 			}
 		}
 	}
-	
+	/*creates a new account
+	 * using parameters
+	 * 	type-String: to see if checking or savings
+	 * 	name-String: is specific and name of acount
+	 * 	balance-float: the amount in the acount
+	 * return
+	 * 	true = if sucessfully created and added the acount to the collection of accounts
+	 * 	false = if did not successfully made a new acount. account already exists or entered an unsupported acount type
+	 * 	*/ 	
 	private boolean newAccountFactory(String type, String name, float balance)
 		throws IllegalArgumentException {
 		
