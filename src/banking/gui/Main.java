@@ -41,7 +41,7 @@ final class Main {
 			System.out.println("Usage: java FormMain <property file>");
 			System.exit(1);
 		}
-		System.out.println("We in");
+		
 		String propertyFile = args[0];
 		JFrame frame = new MainFrame(propertyFile);
 		frame.setVisible(true);
